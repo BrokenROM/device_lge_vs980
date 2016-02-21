@@ -4,7 +4,7 @@ $(call inherit-product, vendor/broken/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
-# Inherit AOSP device configuration for d800
+# Inherit AOSP device configuration for vs980
 $(call inherit-product, device/lge/vs980/vs980.mk)
 
 
